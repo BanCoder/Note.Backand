@@ -4,7 +4,7 @@ namespace Notes.Application
 {
 	public static class DependencyInjection
 	{
-		public static IServiceCollection AddPersistance(this IServiceCollection services)
+		public static IServiceCollection AddApplication(this IServiceCollection services)
 		{
 			return services; 
 		}

@@ -1,13 +1,6 @@
 ﻿using MediatR;
-using Notes.Application.Interfaces;
-using Notes.Application.Notes.Commands.UpdateNote;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Notes.Application.Common.Exceptions;
-using Notes.Domain;
+using Notes.Application.Interfaces;
 
 namespace Notes.Application.Notes.Commands.DeleteCommand
 {

@@ -1,8 +1,7 @@
 ﻿using MediatR;
-using System.Threading; 
 using Microsoft.EntityFrameworkCore;
-using Notes.Application.Interfaces;
 using Notes.Application.Common.Exceptions;
+using Notes.Application.Interfaces;
 namespace Notes.Application.Notes.Commands.UpdateNote
 {
 	public class UpdateNoteCommandHandler: IRequestHandler<UpdateNoteCommand>

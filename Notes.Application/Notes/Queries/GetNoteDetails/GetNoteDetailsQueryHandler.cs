@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Notes.Application.Interfaces;
 using Notes.Application.Common.Exceptions;
-using Notes.Domain; 
+using Notes.Application.Interfaces;
+using Notes.Domain;
 
 namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
